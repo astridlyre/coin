@@ -28,6 +28,7 @@ BTC,ETH
 
 ```bash
 # To install
+git clone "https://github.com/astridlyre/coin" && cd coin
 ./INSTALL.sh
 
 # Then copy "coin" to a directory in your PATH
