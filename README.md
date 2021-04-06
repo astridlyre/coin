@@ -1,5 +1,7 @@
 # coin
 
+![Screen shot](https://raw.githubusercontent.com/astridlyre/coin/main/picture.jpg)
+
 Simple Javascript / Bash script to get current crypto prices from [coingecko](https://www.coingecko.com/). Uses a simple text file for configuring the coins you want to see.
 
 ## Dependencies
