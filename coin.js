@@ -101,9 +101,8 @@ const printData = data => {
 // gets the coin data from coingecko
 const getCoins = () => {
   // initialize the coins we are holding
-  ;[coins, tickers, holdings] = fs
-    .readFileSync('/home/ml/.config/coin/list', 'utf-8')
-    .split('\n')
+  const listFile = process.argv[2]
+  ;[coins, tickers, holdings] = fs.readFileSync(listFile, 'utf-8').split('\n')
 
   // Make the request URL from our coins
   const reqURL = new URL(`price?ids=${coins}${URL_OPTIONS}`, BASE_URL)
