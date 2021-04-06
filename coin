@@ -1,4 +1,4 @@
-#!/usr/sbin/env bash
+#!/usr/bin/env bash
 #
 # Wraper for js script to get coin prices
 #
