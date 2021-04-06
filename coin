@@ -4,6 +4,7 @@
 #
 
 NODE="$(which node)"
+
 COIN_DIR="$HOME/.config/coin"
 COIN_LIST="$HOME/.config/coin/list"
 COIN_SCRIPT="$HOME/.config/coin/coin.js"
@@ -26,6 +27,7 @@ if (($# > 0)); then
   exit 0
 fi
 
+[[ ! -n "$NODE" ]] && error_exit "Node not found in PATH"
 [[ ! -d "$COIN_DIR" ]] && error_exit "No config directory found"
 [[ ! -f "$COIN_LIST" ]] && touch "$COIN_LIST"
 [[ ! -f "$COIN_SCRIPT" ]] && error_exit "No script file found"
