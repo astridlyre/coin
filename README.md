@@ -2,6 +2,11 @@
 
 Simple Javascript / Bash script to get current crypto prices from [coingecko](https://www.coingecko.com/). Uses a simple text file for configuring the coins you want to see.
 
+## Dependencies
+
+- [nodejs](https://nodejs.org/en/) (looks for `node` in `PATH`)
+- [bash](https://www.gnu.org/software/bash/)
+
 ## Configuration
 
 In the list file (plain text):
