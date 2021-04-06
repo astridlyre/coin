@@ -7,7 +7,7 @@ Simple Javascript / Bash script to get current crypto prices from [coingecko](ht
 ## Dependencies
 
 - [nodejs](https://nodejs.org/en/) (looks for `node` in `PATH`)
-- [bash](https://www.gnu.org/software/bash/)
+- POSIX-compliant shell such as `sh`
 
 ## Configuration
 

@@ -92,7 +92,8 @@ const printData = data => {
   printLine(
     padToWidth(' ', 26),
     color('blue', padToWidth('Total in USD:', 15)),
-    color('boldWhite', padToWidth(`$${total.toFixed(2)}`, 15))
+    color('boldWhite', padToWidth(`$${total.toFixed(2)}`, 15)),
+    '\n'
   )
 }
 
